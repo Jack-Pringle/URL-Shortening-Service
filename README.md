@@ -20,7 +20,7 @@ The below commands are formatted for PowerShell.
 ```cd \project\path```
 
 ### Build Project (powershell)
-This command sets the database as an environment variable and builds the project.
+This command sets the database as an environment variable and builds the project.  
 ```$env:DATABASE_URL="sqlite:url_mappings.db"; cargo build```
 
 ### Run Project
