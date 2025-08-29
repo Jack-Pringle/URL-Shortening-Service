@@ -1,5 +1,5 @@
 # URL Shortening Service
-A robust and lightweight URL shortener utilizing Actix Web framework for asynchronous request handling
+This is a lightweight URL shortener utilizing Actix Web framework for asynchronous request handling
 and SQLx for efficient concurrent database management. It implements a RESTful API for creating URLs and
 redirecting URL requests and utilizes a custom error-handling module for increased data integrity and server
 stability.
