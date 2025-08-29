@@ -36,7 +36,7 @@ While the server is running, the API can be utilized in a new PowerShell termina
 This command sends a ```POST``` request to the ```/shorten``` endpoint  
 ```Invoke-WebRequest -Uri http://127.0.0.1:8080/shorten -Method POST -Body '{"original_url": "{original url}"}' -ContentType "application/json"```
 
-The server will respond with a JSON object holding new URL.  
+The server will respond with a JSON object holding the new URL.  
 ex: ```{"short_url":"http://localhost:8080/abc123"}```
 
 ### To Request Original URL from Shortened URL
